@@ -16,10 +16,6 @@ public class EventConsumerConfig {
 
     @Bean
     public Consumer<PaymentEvent> paymentEventConsumer(){
-        //listen payment-event-topic
-        //will check payment status
-        //if payment status completed -> complete the order
-        //if payment status failed -> cancel the order
         return (payment)-> handler.updateOrder(payment.getPaymentRequestDto().getOrderId(),po->{
             po.setPaymentStatus(payment.getPaymentStatus());
         });

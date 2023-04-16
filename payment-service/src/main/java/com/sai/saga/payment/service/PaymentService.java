@@ -34,12 +34,6 @@ public class PaymentService {
                 new UserBalance(105, 999)).collect(Collectors.toList()));
     }
 
-    /**
-     * // get the user id
-     * // check the balance availability
-     * // if balance sufficient -> Payment completed and deduct amount from DB
-     * // if payment not sufficient -> cancel order event and update the amount in DB
-     **/
     @Transactional
     public PaymentEvent newOrderEvent(OrderEvent orderEvent) {
         OrderRequestDto orderRequestDto = orderEvent.getOrderRequestDto();

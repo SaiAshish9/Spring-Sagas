@@ -22,7 +22,6 @@ public class OrderService {
     public PurchaseOrder createOrder(OrderRequestDto orderRequestDto) {
         PurchaseOrder order = orderRepository.save(convertDtoToEntity(orderRequestDto));
         orderRequestDto.setOrderId(order.getId());
-        //produce kafka event with status ORDER_CREATED
         orderStatusPublisher.publishOrderEvent(orderRequestDto, OrderStatus.ORDER_CREATED);
         return order;
     }
