@@ -155,4 +155,13 @@ curl --location --request GET 'http://localhost:8081/orders' \
 
 <img width="1792" alt="Screenshot 2023-04-16 at 2 28 50 PM" src="https://user-images.githubusercontent.com/43849911/232288122-b982b6fc-e8c0-4b7e-a7e8-c05882f812db.png">
 
+<img width="1742" alt="Screenshot 2023-04-16 at 2 31 08 PM" src="https://user-images.githubusercontent.com/43849911/232288220-85bba0a9-51dc-4853-ae05-890f643004c2.png">
+
+<img width="1792" alt="Screenshot 2023-04-16 at 2 32 09 PM" src="https://user-images.githubusercontent.com/43849911/232288287-5231081c-e4d5-4a5f-85f0-2d0205828fe3.png">
+
+<img width="1293" alt="Screenshot 2023-04-16 at 2 33 29 PM" src="https://user-images.githubusercontent.com/43849911/232288318-827b3574-2a29-4838-8356-0d76efe7c852.png">
+
+<img width="995" alt="Screenshot 2023-04-16 at 2 37 56 PM" src="https://user-images.githubusercontent.com/43849911/232288484-45a1cc29-5fdd-415c-8c9f-27da2875167c.png">
+
+<img width="996" alt="Screenshot 2023-04-16 at 2 38 11 PM" src="https://user-images.githubusercontent.com/43849911/232288492-1e797292-d2f8-48cc-b34d-9ee159cdfbf5.png">
 
